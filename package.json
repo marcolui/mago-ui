@@ -1,0 +1,31 @@
+{
+  "name": "mago-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcolui/mago-ui.git"
+  },
+  "author": "Marco Lui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcolui/mago-ui/issues"
+  },
+  "homepage": "https://github.com/marcolui/mago-ui#readme",
+  "dependencies": {
+    "create-react-app": "^1.4.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.17",
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-links": "^3.2.17"
+  }
+}

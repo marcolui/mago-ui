@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.host-info {
+    border-radius: 4px;
+    /*box-shadow: 3px 3px 4px 2px #D7D7D7, -2px -2px 2px 2px #D7D7D7, -2px 2px 2px 2px #D7D7D7, 2px -2px 2px 2px #D7D7D7;*/
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.host-info > div:first-child {
+    background: linear-gradient(135deg, #229922, #116611);
+    /*border-top-right-radius: 4px;*/
+    /*border-top-left-radius: 4px;*/
+    min-height: 120px;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+.host-info:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.host-info > .header {
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    padding: 3px;
+}
+
+.host-info > .status {
+    min-height: 100px;
+    border: 0;
+}
+
+.host-info > .status.healthy {
+    /*background: linear-gradient(135deg, #229922, #116611);*/
+}
+
+.host-info > .details {
+    min-height: 200px;
+}
